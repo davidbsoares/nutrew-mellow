@@ -1,0 +1,98 @@
+@import "./main.css";
+
+
+/* Navbar */
+header{
+  background-color: var(--color-green);  
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0px 10px;  
+  color: var(--color-white);  
+}
+
+.topnav {
+  flex: 5;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.logo{  
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+.logo svg{
+  width: 168px; 
+  height: 30px
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+.navbar-photo img{
+  width: 40px;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+
+@media screen and (max-width: 690px) {
+
+  .logo svg{
+    width: 100px;
+    margin-right: 0;
+  }
+
+  .topnav{
+    display: initial;
+  }
+  
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  } 
+
+  .navbar-photo{
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,47 @@
+@import "./main.css";
+
+.howto-carousel{
+  background-color: var(--color-green);
+  display: flex;
+  max-width: 100vw;
+  padding: 70px;
+
+}
+
+.howto-item{
+  display: flex;
+}
+
+.howto-item-photo{
+  margin-right: 40px;
+}
+
+.howto-item-photo img{
+  height: 500px;
+}
+
+.howto-item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  
+}
+
+.howto-item-text p{
+  text-align: justify;
+}
+
+@media screen and (max-width: 690px) {
+
+  .howto-item {
+    width: 500px;
+    margin-right: 50px;
+  }
+
+  .howto-item-photo img{
+    height: 300px;
+    
+    
+  }
+}

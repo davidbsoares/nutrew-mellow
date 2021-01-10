@@ -1,0 +1,29 @@
+:root{
+  --color-green: #2bcfa2;
+  --color-green-btn: #00ea87;
+  --color-green-txt: #00a35e;
+  --color-green-shadow: #26B58F;
+  --color-white: #ffffff;
+  --color-red-txt: #df3558;
+  --color-grey-bg: #f9f9f9;
+  --color-footer: #3b3b3b;
+  --color-black: #000000
+}
+
+*{
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;    
+}
+
+html, body{  
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-white);
+  width: 100vw;
+  height: 100vh;
+  /* overflow-x: hidden; */
+}
+
+
+
+

@@ -1,0 +1,118 @@
+@import "./main.css";
+
+footer{
+  background-color: var(--color-footer);
+  padding: 60px;
+}
+
+.footer-up{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.footer-logo{
+  display: flex;
+  flex: 2;  
+  font-size: 20px;
+  padding-left: 10px;
+  justify-content: flex-end;
+}
+
+.footer-logo img{
+  width: 120px;
+}
+
+.footer-links{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 0.8rem;
+}
+
+.footer-text{
+  margin-bottom: 30px;
+}
+
+.footer-text h1{
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.footer-subs{
+  display: flex;
+  margin-bottom: 30px;
+  place-items: center;
+}
+
+.footer-subs input{
+  padding: 10px;
+  font-size: 0.7rem;
+  margin-right: 2px;
+  border: none;
+  width: 200px;
+}
+
+.footer-subs button{
+  background-color: var(--color-green-btn);
+  border: none;
+  padding: 10px;
+  border-radius: 0px 5px 5px 0px;
+  font-size: .7rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-social-media{
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.footer-social-media div{  
+  margin-right: 25px;
+  place-items: center;
+}
+
+.footer-social-media div img{
+ height: 15px;  
+}
+
+.footer-text-2{
+  color: var(--color-white);
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 690px) {
+
+
+  .footer-link{
+    flex: 2;
+    justify-content: flex-start;
+  }
+
+  .footer-link a{
+    font-size: 0.4rem;
+  }
+
+  .footer-logo {
+    flex: 0.5;
+    padding-left: 0;
+  }
+  .footer-logo img{
+    width: 80px;
+  }
+
+  .footer-text{
+    font-size: 0.8rem;
+  } 
+}

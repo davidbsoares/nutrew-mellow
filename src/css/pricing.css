@@ -1,0 +1,95 @@
+@import "./main.css";
+
+.pricing{
+  display: flex;
+  padding: 60px;
+  height: 500px;
+}
+
+.price-info{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.price-title{
+  color: var(--color-green-txt);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.price-desc{
+  margin-bottom: 20px;
+}
+
+.price-btn > a{
+  background-color: var(--color-green-btn);
+  width: fit-content;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.price-down{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.price-down-text{
+  margin-bottom: 15px;
+}
+
+.price-down-btns{  display: flex;
+  place-items: center;
+  
+}
+
+.app-store{
+  margin-right: 5px;
+}
+.app-store img{
+  height: 35px;
+  cursor: pointer;
+  border: none;
+}
+
+.google-play img{
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.price-img{
+  flex: 1;
+  background-color: var(--color-grey-bg);
+}
+
+@media screen and (max-width: 690px) {
+  .price-title{
+    font-size: 1rem;
+  }
+
+  .price-info{
+    font-size: 0.9rem;
+  }
+
+  .price-btn > a{
+    font-size: 0.9rem;
+  }
+
+  .price-down-text{
+    font-size: 0.8rem;
+  }
+
+}
